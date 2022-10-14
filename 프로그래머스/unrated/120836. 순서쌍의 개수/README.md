@@ -1,10 +1,10 @@
 # [unrated] 순서쌍의 개수 - 120836 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120836) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120836?language=swift) 
 
 ### 성능 요약
 
-메모리: 16.1 MB, 시간: 0.01 ms
+메모리: 16.6 MB, 시간: 0.12 ms
 
 ### 구분
 
