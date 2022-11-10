@@ -14,7 +14,7 @@ func solution(_ keyinput:[String], _ board:[Int]) -> [Int] {
         case "right":
             coordinate[0] = coordinate[0] < maxValue[0] ? coordinate[0] + 1: coordinate[0]
         default:
-            print("error")
+            break
         }
     }
     return coordinate
