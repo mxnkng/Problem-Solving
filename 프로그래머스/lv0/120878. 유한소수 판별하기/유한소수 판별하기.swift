@@ -18,6 +18,6 @@ func solution(_ a:Int, _ b:Int) -> Int {
     // 분모의 소인수를 구한다(1 제외)
     var primefactors = (2...b).filter{ b % $0 == 0 }
     // 분모의 소인수 중 2와 5가 아닌 수가 존재하는지 확인하여 반환
-    primefactors = primefactors.filter{ $0 % 2 != 0 }.filter{ $0 % 5 != 0 }
+    primefactors = primefactors.filter{ !($0 % 2 == 0 || $0 % 5 == 0) }
     return primefactors.isEmpty ? 1 : 2
 }
